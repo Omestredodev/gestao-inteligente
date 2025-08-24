@@ -76,13 +76,11 @@ Experiência esperada pelo usuário: A aplicação deve proporcionar uma navega�
 
 ---
       
-### Mapa de empatia
+## 📌 Mapa de empatia
 
 ![Mapa de empatia](empatia.png)
 
-# 📌 Mapa de Empatia
-
-Este documento apresenta o mapa de empatia de duas personas definidas para o sistema de **gestão e manutenção de veículos**:  
+Mapa de empatia de duas personas definidas para o sistema de **gestão e manutenção de veículos**:  
 - **Persona Primária:** Neide, proprietária organizada (muito chata, exigente, detalhista).  
 - **Persona Secundária:** Cesar, mecânico e dono de oficina (muito tranquilo, prático, objetivo).  
 
@@ -164,23 +162,23 @@ Este documento apresenta o mapa de empatia de duas personas definidas para o sis
 
 ---
 
-## ✅ Conclusão
+### Conclusão
 
 - **Neide (Primária):** Exige **detalhes, controle e relatórios completos**.  
 - **Cesar (Secundária):** Busca **simplicidade, praticidade e agilidade**.  
 
 O sistema deve equilibrar essas necessidades, oferecendo **recursos avançados para usuários exigentes** e, ao mesmo tempo, **uma interface simples e direta para quem busca praticidade**.
 
-# 🌍 Contexto de Uso
+## 🌍 Contexto de Uso
 
-## Ambiente de utilização
+### Ambiente de utilização
 O serviço será utilizado em dois cenários principais:  
 1. **Ambiente pessoal/doméstico** – onde proprietários de veículos (como Neide) acessam a aplicação em casa, no trabalho ou em mobilidade, usando computador ou smartphone.  
 2. **Ambiente profissional/oficina** – onde mecânicos e donos de oficina (como Cesar) utilizam o sistema em meio à rotina de atendimento, registrando informações rapidamente entre um serviço e outro.  
 
 ---
 
-## Contextos sociais, econômicos e culturais
+### Contextos sociais, econômicos e culturais
 - **Sociais:**  
   - Proprietários de veículos preocupados com segurança, organização e economia.  
   - Oficinas e mecânicos buscando fidelizar clientes e manter histórico de serviços.  
@@ -197,7 +195,7 @@ O serviço será utilizado em dois cenários principais:
 
 ---
 
-## Informações que o sistema deve guardar antes da interação
+### Informações que o sistema deve guardar antes da interação
 - **Para proprietários (Neide):**  
   - Dados pessoais (nome, e-mail).  
   - Informações detalhadas do veículo (modelo, ano, placa, quilometragem).  
@@ -212,7 +210,7 @@ O serviço será utilizado em dois cenários principais:
 
 ---
 
-## Situação típica durante a interação
+### Situação típica durante a interação
 - **Proprietário (Neide):**  
   - Está em casa ou no trabalho, analisando custos do veículo.  
   - Pode estar recebendo um lembrete de revisão ou planejando despesas futuras.  
@@ -263,4 +261,5 @@ O serviço será utilizado em dois cenários principais:
 <!-- TODOs:
 - Add exemplos
  -->
+
 
