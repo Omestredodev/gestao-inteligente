@@ -26,6 +26,23 @@ Experiência esperada pelo usuário: A aplicação deve proporcionar uma navega�
 
 ### Personas
 
+ - Persona primária - Cesar, Proprietário de oficina.
+
+    - Idade: 35 anos.
+
+    - Profissão: Mecânico e dono de um centro automotivo.
+
+    - Contexto: Atende clientes da região e quer melhorar o acompanhamento dos serviços realizados.
+
+    - Nivel de Renda: Média-Alta.
+
+    - Comportamento digital: Usa redes sociais para divulgar a oficina, mas ainda anota os serviços realizados no papel.
+
+    - O que espera do sistema: Um painel simples para registrar os serviços por cliente e enviar lembrentes recorrentes para revisões:
+
+    - Informações que o sistema deve guardar: Dados dos clientes, veículos atendidos, serviços realizados, datas e valores cobrados.
+     
+
 - Persona primária - Neide, Proprietária Organizada.
 
      - Idade: 45 anos.
@@ -42,37 +59,6 @@ Experiência esperada pelo usuário: A aplicação deve proporcionar uma navega�
 
      - Informações que o sistema deve guardar: Nome, e-mail, dados do veículo (modelo,placa,ano), histórico de manutenções, custos e datas de revisão.
 
- - Persona Secundária - Cesar, Proprietário de oficina.
-
-    - Idade: 35 anos.
-
-    - Profissão: Mecânico e dono de uma pequena oficina.
-
-    - Contexto: Atende clientes da região e quer melhorar o acompanhamento dos serviços realizados.
-
-    - Nivel de Renda: Média-Alta.
-
-    - Comportamento digital: Usa redes sociais para divulgar a oficina, mas ainda anota os serviços realizados no papel.
-
-    - O que espera do sistema: Um painel simples para registrar os serviços por cliente e enviar lembrentes recorrentes para revisões:
-
-    - Informações que o sistema deve guardar: Dados dos clientes, veículos atendidos, serviços realizados, datas e valores cobrados.
-
-- Persona Adicional - Marcos, o Jovem motorista.
-
-    - Idade: 20 anos.
-
-    - Profissão: Estudante universitário.
-
-    - Contexto: Recentemente comprou o primeiro carro e quer aprender a cuidar melhor dele.
-
-    - Nivel de renda: Baixa.
-
-    - Comportamento digital: Muito ativo online, acostumado com apps de mobilidade e finanças pessoais.
-
-    - O que espera do sistema: alertas simples e educativos sobre manutenções, com dicas e registros de gastos.
-
-    - Informações que o sistema deve guardar: Informações básicas do veículo, calendário de revisões e orientações de manutenção.
 
 ---
       
@@ -85,46 +71,7 @@ Mapa de empatia de duas personas definidas para o sistema de **gestão e manuten
 - **Persona Secundária:** Cesar, mecânico e dono de oficina (muito tranquilo, prático, objetivo).  
 
 ---
-
-## 👩 Persona Primária — Neide, Proprietária Organizada
-
-### O que vê
-- Aplicativos de organização financeira, lembretes no celular, planilhas e dashboards coloridos.  
-- Comerciais de revisão preventiva e propagandas de concessionárias.  
-- Pessoas comentando sobre gastos altos com manutenção.  
-
-### O que ouve
-- Conselhos de amigos e familiares sobre economia com carro.  
-- Mecânicos recomendando revisões frequentes.  
-- Alertas de aplicativos que usa no dia a dia (banco, saúde, produtividade).  
-
-### O que diz e faz
-- Reclama quando não encontra informações claras.  
-- Exige detalhamento e quer tudo documentado.  
-- Gosta de comparar preços e registrar cada gasto.  
-- Cobra respostas rápidas e suporte eficiente.  
-
-### O que pensa e sente
-- Quer segurança e organização absoluta no histórico do veículo.  
-- Sente ansiedade quando não tem controle dos custos.  
-- Tem medo de gastar mais do que deveria por falta de planejamento.  
-- Espera que o sistema funcione como um “assistente pessoal”.  
-
-### Dores
-- Sistemas confusos ou desorganizados.  
-- Falta de relatórios detalhados.  
-- Lembretes genéricos e pouco personalizados.  
-- Ter que depender da memória ou anotações em papel.  
-
-### Ganhos
-- Controle total sobre custos e manutenções.  
-- Relatórios visuais e alertas bem configurados.  
-- Economia de tempo e dinheiro.  
-- Tranquilidade em saber que está prevenindo problemas futuros.  
-
----
-
-## 👨 Persona Secundária — Cesar, Mecânico e dono de oficina
+## 👨 Persona primária — Cesar, Mecânico e dono de oficina
 
 ### O que vê
 - Oficina movimentada, carros chegando, clientes pedindo serviços.  
@@ -162,10 +109,48 @@ Mapa de empatia de duas personas definidas para o sistema de **gestão e manuten
 
 ---
 
+## 👩 Persona primária — Neide, Proprietária Organizada
+
+### O que vê
+- Aplicativos de organização financeira, lembretes no celular, planilhas e dashboards coloridos.  
+- Comerciais de revisão preventiva e propagandas de concessionárias.  
+- Pessoas comentando sobre gastos altos com manutenção.  
+
+### O que ouve
+- Conselhos de amigos e familiares sobre economia com carro.  
+- Mecânicos recomendando revisões frequentes.  
+- Alertas de aplicativos que usa no dia a dia (banco, saúde, produtividade).  
+
+### O que diz e faz
+- Reclama quando não encontra informações claras.  
+- Exige detalhamento e quer tudo documentado.  
+- Gosta de comparar preços e registrar cada gasto.  
+- Cobra respostas rápidas e suporte eficiente.  
+
+### O que pensa e sente
+- Quer segurança e organização absoluta no histórico do veículo.  
+- Sente ansiedade quando não tem controle dos custos.  
+- Tem medo de gastar mais do que deveria por falta de planejamento.  
+- Espera que o sistema funcione como um “assistente pessoal”.  
+
+### Dores
+- Sistemas confusos ou desorganizados.  
+- Falta de relatórios detalhados.  
+- Lembretes genéricos e pouco personalizados.  
+- Ter que depender da memória ou anotações em papel.  
+
+### Ganhos
+- Controle total sobre custos e manutenções.  
+- Relatórios visuais e alertas bem configurados.  
+- Economia de tempo e dinheiro.  
+- Tranquilidade em saber que está prevenindo problemas futuros.  
+
+---
+
 ### Conclusão
 
-- **Neide (Primária):** Exige **detalhes, controle e relatórios completos**.  
-- **Cesar (Secundária):** Busca **simplicidade, praticidade e agilidade**.  
+- **Cesar (primária):** Busca **simplicidade, praticidade e agilidade**.  
+- **Neide (primária):** Exige **detalhes, controle e relatórios completos**.  
 
 O sistema deve equilibrar essas necessidades, oferecendo **recursos avançados para usuários exigentes** e, ao mesmo tempo, **uma interface simples e direta para quem busca praticidade**.
 
@@ -173,8 +158,13 @@ O sistema deve equilibrar essas necessidades, oferecendo **recursos avançados p
 
 ### Ambiente de utilização
 O serviço será utilizado em dois cenários principais:  
-1. **Ambiente pessoal/doméstico** – onde proprietários de veículos (como Neide) acessam a aplicação em casa, no trabalho ou em mobilidade, usando computador ou smartphone.  
-2. **Ambiente profissional/oficina** – onde mecânicos e donos de oficina (como Cesar) utilizam o sistema em meio à rotina de atendimento, registrando informações rapidamente entre um serviço e outro.  
+1. **Ambiente pessoal/doméstico** – onde proprietários de veículos (como Neide) acessam a aplicação em casa, no trabalho ou em mobilidade, usando computador ou smartphone.
+   Acessa o sistema em seu celular sempre que recebe uma notificação relacionado a revisões que necessitam ser feitas periodicamente em seu automóvel, ja aproveitando para prever dispesas futuras e manter um controle financeiro adequada ao seu orçamento.    
+
+
+2. **Ambiente profissional/oficina** – onde mecânicos e donos de oficina (como Cesar) utilizam o sistema em meio à rotina de atendimento, registrando informações rapidamente entre um serviço e outro.
+   Mecânicos geralmente lidam com orçamentos de mão de obra, orçamentos de peças, horários/prazos de entrega de veículos, enquanto precisam diagnosticar os problemas dos veículos e buscam os meios para solucionar os mesmos.
+   Por estarem ocupados diariamente com todos esses afazeres, falta tempo e recurso para manter organizado os históricos de serviços prestados aos clientes, e recordar valores cobrados anteriormente.  
 
 ---
 
@@ -224,10 +214,13 @@ O serviço será utilizado em dois cenários principais:
 
 ## Jornada do usuário
 
-- Criar uma narrativa para o o seu serviço ou poduto com o usuário.
-- Determine o que o usuário realiza desde a primeira até o última interação com o serviço ou poduto.
-  - Descreva o que acontece ou pode acontecer passo a passo
-  - Como a tarefa começa? Como a tarefa se desenvolve? Como a tarefa termina?
+## Jornada do Cesar(Mecãnico e dono de oficina)
+
+### 1 - Primeira interação
+- Acessa o sistema interessado em obter um atendimento organizado, personalizado e fidelizar seus clientes. Como uma forma de otimizar seu tempo.
+- Cadastrar sua oficina (Nome, telefone, email, endereço, CNPJ, CPF, serviços oferecidos e tabela de preço).
+- Cadastrar seus clientes (nome, veículo, telefone, email, CPF/CNPJ e endereço).  
+
 
 ## Análise de concorrência
 
@@ -261,5 +254,6 @@ O serviço será utilizado em dois cenários principais:
 <!-- TODOs:
 - Add exemplos
  -->
+
 
 
