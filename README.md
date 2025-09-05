@@ -251,9 +251,73 @@ O serviço será utilizado em dois cenários principais:
 
 [^1]: Fonte: Adaptado de <https://hazeshift.com.br/mapa-de-empatia/>
 
+
+
+Idade ?
+
+
+
+Qual as finalidade ao usar o site ?
+
+Sou mecânico/dono de oficina e busco organizar melhor
+Sou proprietário de veiculo e gostaria de melhorar a gestao de finanças e prever futuros gastos com meu veiculo, não ser pego de surpresa com manutenções expontaneas
+
+
+proprietário
+
+Com qual frequência você vai em uma oficina mecânica?
+
+
+O que você procurar em uma oficina mecânica?
+
+°Preço
+°qualidade
+°flexibilidade na agenda
+°agilidade no serviço
+°Ser bem atendido
+
+Você tem seu histórico de manutenção de veículos?
+°sim
+não
+
+
+Dono de oficina/mecânico:
+
+
+oq você usa para guardar o histórico de manutenção dos seus clientes?
+
+°no papel
+
+°numa planilha
+
+°em sites de anotações online
+
+°não anoto
+
+como vc entra em contato com seus clientes ?
+
+whatsapp
+
+ligação
+
+e-mail
+
+em sites online
+
+Qual sua maior dificuldade atualmente na sua oficina?
+
+gerir o financeiro
+
+°Concorrencia de preços.
+
+° Atrair novos clientes
+
+° A relação com os clientes() 
+
 <!-- TODOs:
 - Add exemplos
  -->
+
 
 
 
