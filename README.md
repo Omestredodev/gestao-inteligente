@@ -219,8 +219,43 @@ O serviço será utilizado em dois cenários principais:
 ### 1 - Primeira interação
 - Acessa o sistema interessado em obter um atendimento organizado, personalizado e fidelizar seus clientes. Como uma forma de otimizar seu tempo.
 - Cadastrar sua oficina (Nome, telefone, email, endereço, CNPJ, CPF, serviços oferecidos e tabela de preço).
-- Cadastrar seus clientes (nome, veículo, telefone, email, CPF/CNPJ e endereço).  
+- Cadastrar seus clientes (nome, veículo, telefone, email, CPF/CNPJ e endereço).
 
+### 2 - Organização
+- Agenda serviços e registra ordem de serviços que estão em andamentos.
+- Controla o historico de cada atendimento feito e quando foi realizado, proporcionando uma melhor organização.
+- associa os clientes ao veiculos e serviços solicitados.
+
+### 3 - Gestão financeira
+- Consulta os relatórios financeiros dos faturamentos e os serviços que foram mais vendidos
+- anota o fluxo de clientes semanais e identifica os periodos aonde ocorre o maior movimento.
+- transfere os dados para criar relatórios contábeis e fazer planejamentos.
+
+### 4 - Fidelização de clientes
+- faz envio automático de lembretes de revisão e troca de óleo.
+- analisa quais clientes retornam e quais pararam de vir.
+- cria campanhas de promoções sazonais e envia aos clientes.
+
+
+## Jornada da Neide(Proprietária organizada)
+
+### 1 - Primeira interação
+- Acessa o sistema buscando praticidade, organização e segurança para não esquecer revisões importantes.
+- Cria uma conta informando os dados pessoais(Nome, telefone, e-mail, CPF, data de nascimento e endereço).
+- Cadastra o veículo (Modelo, marca, ano, placa e histórico de manutenções).
+
+### 2 - Registro inicial
+- Adiciona as últimas manutenções que foram feitas no veículo
+- Indica valores que foram gastos nos serviços ja realizados para gerar relatórios.
+
+### 3 - Relatorio dos custos
+- Acessa todos os relatórios anuais e mensais do veículo.
+- Cria e visualiza gráficos por categoria de serviços ja feito no automóvel.
+
+### 4 - Controle do histórico
+- Visualiza todo o histórico dos serviços ja feitos no veículo, incluindo as datas e custos
+- Adiciona observações pessoais relacionado aos serviços.
+- Adiciona lembretes de revisões futuras e vencimentos de garantia.
 
 ## Análise de concorrência
 
@@ -317,6 +352,7 @@ gerir o financeiro
 <!-- TODOs:
 - Add exemplos
  -->
+
 
 
 
