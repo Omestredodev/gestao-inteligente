@@ -270,9 +270,72 @@ O serviço será utilizado em dois cenários principais:
 ## 1 - Tipo de coleta:
 https://docs.google.com/forms/d/e/1FAIpQLScHyF849OKczKYEathKvsZlWT-veXDk2LvuifYBDKcSblhHfg/viewform?usp=dialog
 
-## Modelo de tarefas
+## 2 - Tipo de coleta:
+Roteiro de entrevista: 
 
-## Design
+## -- Perguntas para os proprietários de veículos:
+° Quando você está pensando em levar seu carro para a manutenção, o que causa essa decisão?
+° Você já passou por alguma situação ruim em alguma oficina? O que aconteceu?
+° O que te deixa mais tranquilo no processo de manutenção do seu veículo?
+° Se você pudesse ter um recurso extra no celular para conseguir cuidar do seu carro, o que  mais seria útil para você?
+
+## -- Perguntas para mecânicos/donos de oficina:
+° No seu dia a dia, qual tarefa administrativa usa a maior parte do seu tempo?
+° Quando um cliente deixa de voltar na sua oficina, qual você acha que é o principal motivo?
+° Se existisse uma ferramenta que pode resolver apenas um problema da sua oficina, qual problema você escolheria para resolver primeiro?
+° Quais recursos você considera indispensável em um sistema de gestão de oficina?
+
+## 3 - Tipo de coleta:
+Classificação de cartões: 
+## -- Gestão da Oficina (mecânico/dono):
+° Tabela de preços dos serviços oferecidos
+° Agenda de serviços
+° Notificação de agendamentos
+° Relatórios financeiros
+° Controle de estoque de peças
+° Histórico de atendimento
+° Comunicação com o clientes (WhatsApp, e-mail, ligação)
+° Lembretes de revisão para os clientes
+° Controle de pagamentos (recebidos e os pendente)
+° Cadastro da oficina
+° Cadastro de clientes
+° Cadastro de veículos dos clientes
+—--------------------------------------
+## -- Proprietário de Veículo: 
+° Cadastrar o veículo próprio
+° Histórico de manutenções do veículo
+° Lembretes de troca de óleo
+° Lembretes de revisão periódica
+° Comparação de custos de todos os serviços usados
+° Relatórios de gastos com o carro
+° Agendamento online dos serviços
+° Receber o orçamento digital
+° Consultar os status de serviço
+° Avaliar a oficina após atendimento
+
+### Modelo de tarefas
+
+1 -- Modelo:
+## -- Cadastrar Oficina (César):  // Usar esse objetivo principal para fazer os outros 3 metodos(GOMS, CTT e diagramas/tabela).
+
+  Objetivos/Operações               |               Problemas e recomendações
+                                    |
+  0. Cadastrar a oficina            |       
+  1. Informar dados da oficina      | Plano: informar nome, telefone, e-mail, endereço e i
+  
+  
+  
+  
+  /* Tarefa:                            Subtarefas:                                               Descrição/Detalhamento:
+  0. Cadastrar a oficina       0.1 Acessar o sistema                                    O dono faz login ou cria uma cont
+                               0.2 Selecionar a opção “Cadastrar a Oficina”             Entra na seção de cadastro
+                               0.3 Preencher os dados principais da oficina             Nome, telefone, e-mail, endereço
+                               0.4 Inserir os dados fiscais da oficina                  CNPJ/ CPF
+                               0.5 Cadastrar os serviços oferecidos                     os tipos de serviços e preços oferecidos
+                               0.6 Salvar os cadastros feitos                           os dados ficam disponíveis no sistema
+                               0.7 Receber a confirmação do sistema                     Mensagem dizendo “Cadastro foi concluído com sucesso” */
+
+### Design
 
 - Pense nas características de Affordances do seu serviço ou poduto. 
     - Que tipo de acessibilidades devem ser consideradas dentro do seu projeto?
@@ -292,6 +355,7 @@ https://docs.google.com/forms/d/e/1FAIpQLScHyF849OKczKYEathKvsZlWT-veXDk2LvuifYB
 <!-- TODOs:
 - Add exemplos
  -->
+
 
 
 
