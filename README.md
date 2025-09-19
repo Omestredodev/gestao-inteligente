@@ -274,15 +274,23 @@ https://docs.google.com/forms/d/e/1FAIpQLScHyF849OKczKYEathKvsZlWT-veXDk2LvuifYB
 Roteiro de entrevista: 
 
 ## -- Perguntas para os proprietários de veículos:
+
 ° Quando você está pensando em levar seu carro para a manutenção, o que causa essa decisão?
+
 ° Você já passou por alguma situação ruim em alguma oficina? O que aconteceu?
+
 ° O que te deixa mais tranquilo no processo de manutenção do seu veículo?
+
 ° Se você pudesse ter um recurso extra no celular para conseguir cuidar do seu carro, o que  mais seria útil para você?
 
 ## -- Perguntas para mecânicos/donos de oficina:
+
 ° No seu dia a dia, qual tarefa administrativa usa a maior parte do seu tempo?
+
 ° Quando um cliente deixa de voltar na sua oficina, qual você acha que é o principal motivo?
+
 ° Se existisse uma ferramenta que pode resolver apenas um problema da sua oficina, qual problema você escolheria para resolver primeiro?
+
 ° Quais recursos você considera indispensável em um sistema de gestão de oficina?
 
 ## 3 - Tipo de coleta:
@@ -379,6 +387,7 @@ Classificação de cartões:
 <!-- TODOs:
 - Add exemplos
  -->
+
 
 
 
