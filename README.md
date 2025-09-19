@@ -288,29 +288,53 @@ Roteiro de entrevista:
 ## 3 - Tipo de coleta:
 Classificação de cartões: 
 ## -- Gestão da Oficina (mecânico/dono):
+
 ° Tabela de preços dos serviços oferecidos
+
 ° Agenda de serviços
+
 ° Notificação de agendamentos
+
 ° Relatórios financeiros
+
 ° Controle de estoque de peças
+
 ° Histórico de atendimento
+
 ° Comunicação com o clientes (WhatsApp, e-mail, ligação)
+
 ° Lembretes de revisão para os clientes
+
 ° Controle de pagamentos (recebidos e os pendente)
+
 ° Cadastro da oficina
+
 ° Cadastro de clientes
+
 ° Cadastro de veículos dos clientes
+
 —--------------------------------------
+
 ## -- Proprietário de Veículo: 
+
 ° Cadastrar o veículo próprio
+
 ° Histórico de manutenções do veículo
+
 ° Lembretes de troca de óleo
+
 ° Lembretes de revisão periódica
+
 ° Comparação de custos de todos os serviços usados
+
 ° Relatórios de gastos com o carro
+
 ° Agendamento online dos serviços
+
 ° Receber o orçamento digital
+
 ° Consultar os status de serviço
+
 ° Avaliar a oficina após atendimento
 
 ### Modelo de tarefas
@@ -355,6 +379,7 @@ Classificação de cartões:
 <!-- TODOs:
 - Add exemplos
  -->
+
 
 
 
