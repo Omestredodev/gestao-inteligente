@@ -350,22 +350,29 @@ Classificação de cartões:
 1 -- Modelo:
 ## -- Cadastrar Oficina (César):  // Usar esse objetivo principal para fazer os outros 3 metodos(GOMS, CTT e diagramas/tabela).
 
-  Objetivos/Operações               |               Problemas e recomendações
-                                    |
-  0. Cadastrar a oficina            |       
-  1. Informar dados da oficina      | Plano: informar nome, telefone, e-mail, endereço e i
+  Objetivos/Operações                   |               Problemas e recomendações
+                                        |
+  0. Cadastrar a oficina 1 > 2          | Input: um formulário de cadastro com o nome da oficina, telefone, e-mail, endereço, CNPJ/CPF, serviços oferecidos e a tabela de preços.
+                                        | Feedback: a oficina aparece no sistema como “pendente” até que os dados sejam inseridos e confirmados.
+                                        | Plano: informar os dados sobre a oficina e depois enviar a confirmação ao responsável.
+                                        | Recomendação: permitir que o dono da oficina faça os cadastros online sem precisar do suporte de outras pessoas.
+                                        |
+  1. Informar dados da oficina 1+2      | Plano: preencher os dados obrigatórios sobre a oficina (nome, endereço, telefone, CNPJ) e cadastrar os serviços ofereçidos e a tabela de preços.
+                                        |
+  1.1 Informar os dados básicos (nome,  | Problema: os campos longos podem aumentar tempo de preenchimento das respostar. Recomendação: usar o preenchimento automático para acelerar. 
+ telefone, e-mail, endereço, CNPJ/CPF)  |
+                                        |
+  1.2 Informar serviços oferecidos e    | Problema: os valores podem variar e precisar de uma atualização constante. Recomendação: permitir as importações via planilha ou uma edição rápida de preços.
+  tabela de preços                      |
+                                        |
+  2. Enviar mensagem de confirmação     | Ação: o cadastro deve ser confirmado no prazo que esta estabelecido no site.
+  do cadastro                           | Recomendação 1: automatizar os envios da mensagem de confirmação usando (WhatsApp/E-mail).
+                                        | Recomendação 2: enviar os lembretes caso a confirmação não seja enviada dentro do prazo que tinha sido estabelecido.
+
   
   
   
-  
-  /* Tarefa:                            Subtarefas:                                               Descrição/Detalhamento:
-  0. Cadastrar a oficina       0.1 Acessar o sistema                                    O dono faz login ou cria uma cont
-                               0.2 Selecionar a opção “Cadastrar a Oficina”             Entra na seção de cadastro
-                               0.3 Preencher os dados principais da oficina             Nome, telefone, e-mail, endereço
-                               0.4 Inserir os dados fiscais da oficina                  CNPJ/ CPF
-                               0.5 Cadastrar os serviços oferecidos                     os tipos de serviços e preços oferecidos
-                               0.6 Salvar os cadastros feitos                           os dados ficam disponíveis no sistema
-                               0.7 Receber a confirmação do sistema                     Mensagem dizendo “Cadastro foi concluído com sucesso” */
+
 
 ### Design
 
@@ -387,6 +394,7 @@ Classificação de cartões:
 <!-- TODOs:
 - Add exemplos
  -->
+
 
 
 
