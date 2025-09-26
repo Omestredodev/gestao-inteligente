@@ -353,27 +353,71 @@ Classificação de cartões:
   Objetivos/Operações                   |               Problemas e recomendações
                                         |
   0. Cadastrar a oficina 1 > 2          | Input: um formulário de cadastro com o nome da oficina, telefone, e-mail, endereço, CNPJ/CPF, serviços oferecidos e a tabela de preços.
-                                        | Feedback: a oficina aparece no sistema como “pendente” até que os dados sejam inseridos e confirmados.
-                                        | Plano: informar os dados sobre a oficina e depois enviar a confirmação ao responsável.
-                                        | Recomendação: permitir que o dono da oficina faça os cadastros online sem precisar do suporte de outras pessoas.
-                                        |
-  1. Informar dados da oficina 1+2      | Plano: preencher os dados obrigatórios sobre a oficina (nome, endereço, telefone, CNPJ) e cadastrar os serviços ofereçidos e a tabela de preços.
-                                        |
-  1.1 Informar os dados básicos (nome,  | Problema: os campos longos podem aumentar tempo de preenchimento das respostar. Recomendação: usar o preenchimento automático para acelerar. 
+                                        | Feedback: a oficina aparece no sistema como “pendente a cadastramento” até que os dados sejam inseridos e confirmados.
+                                        | Plano: informar os dados sobre a oficina e depois enviar a confirmação ao dono.
+                                        | Recomendação: permitir que o dono da oficina faça o cadastro online sem precisar do suporte de outras pessoas.
+  ------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- 
+  1. Informar dados da oficina          | Plano: preencher os dados obrigatórios sobre a oficina (nome, endereço, telefone, CNPJ) e cadastrar os serviços ofereçidos e a tabela de preços.
+              1+2                       |
+ -------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------    
+  1.1 Informar os dados básicos (nome,  | Problema: os campos longos podem aumentar tempo de preenchimento das respostar. Recomendação: usar o preenchimento automático para acelerar o processo. 
  telefone, e-mail, endereço, CNPJ/CPF)  |
-                                        |
-  1.2 Informar serviços oferecidos e    | Problema: os valores podem variar e precisar de uma atualização constante. Recomendação: permitir as importações via planilha ou uma edição rápida de preços.
+ -------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------                                                                     |
+  1.2 Informar serviços oferecidos e    | Problema: os valores podem variar e precisar de uma atualização rotineira. Recomendação: permitir as importações via planilha ou uma edição rápida de preços.
   tabela de preços                      |
-                                        |
+  ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------                                                          |
   2. Enviar mensagem de confirmação     | Ação: o cadastro deve ser confirmado no prazo que esta estabelecido no site.
   do cadastro                           | Recomendação 1: automatizar os envios da mensagem de confirmação usando (WhatsApp/E-mail).
                                         | Recomendação 2: enviar os lembretes caso a confirmação não seja enviada dentro do prazo que tinha sido estabelecido.
 
-  
-  
-  
 
+GOAL 0: Cadastrar a oficina no sistema
 
+GOAL 1: Informar os dados da oficina
+
+METHOD 1.A: Preencher os campos manualmente
+ (SEL. RULE: quando o usuário tem todas as informações da oficina com ele)
+    OP. 1.A.1: Digitar o nome da oficina
+    OP. 1.A.2: Digitar a descrição sobre a oficina
+    OP. 1.A.3: Escolher os responsáveis pela oficina
+    OP. 1.A.4: Definir as datas de início e fechamento
+    OP. 1.A.5: Digitar o local da oficina
+    OP. 1.A.6: Escolher o formato de atendimento (presencial ou online)
+    
+METHOD 1.B: Importar os dados de um arquivo
+ (SEL. RULE: quando os dados da oficina foi feita em planilha ou em um documento externo)
+    OP. 1.B.1: Clicar no botão “Importar dados”
+    OP. 1.B.2: Selecione os arquivos do computador
+    OP. 1.B.3: Confirma a importação dos dados
+    OP. 1.B.4: Verificar se os dados foram carregados sem erros 
+
+GOAL 2: Adicionar os clientes
+
+METHOD 2.A: a inserção manual
+ (SEL. RULE: lista de usuários)
+    OP. 2.A.1: Clica em “Adicionar cliente”
+    OP. 2.A.2: Digitar o nome, CPF e o e-mail do cliente
+    OP. 2.A.3: Repetir os processo para cada cliente do sistema
+    
+METHOD 2.B: Importar as listas de clientes
+ (SEL. RULE: se for lista extensa, em um arquivo externo)
+    OP. 2.B.1: Clica em “Importar lista”
+    OP. 2.B.2: Seleciona os arquivo tipo (CSV/Excel)
+    OP. 2.B.3: Confirmar as  importações feitas
+    OP. 2.B.4: Validar se todos os nomes dos clientes foram carregados
+
+GOAL 3: Confirmar o cadastro da oficina
+
+METHOD 3.A: Envio automático da confirmação de cadastro ao dono
+    OP. 3.A.1: Clica em “Salvar e confirmar o cadastramento”
+    OP. 3.A.2: O sistema envia a notificação para o dono e associados
+    OP. 3.A.3: Verificar a mensagem de sucesso recebida do sistema
+
+METHOD 3.B: A revisão antes da confirmação
+    OP. 3.B.1: Clica em “Salvar o rascunho”
+    OP. 3.B.2: Conferir os dados cadastrados
+    OP. 3.B.3: Clicar em “Confirmar o cadastro da oficina”
+    
 ### Design
 
 - Pense nas características de Affordances do seu serviço ou poduto. 
@@ -394,6 +438,7 @@ Classificação de cartões:
 <!-- TODOs:
 - Add exemplos
  -->
+
 
 
 
