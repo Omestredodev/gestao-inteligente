@@ -351,23 +351,40 @@ Classificação de cartões:
 ## -- Cadastrar Oficina (César):  // Usar esse objetivo principal para fazer os outros 3 metodos(GOMS, CTT e diagramas/tabela).
 
   Objetivos/Operações                   |               Problemas e recomendações
+  
                                         |
+                                        
   0. Cadastrar a oficina 1 > 2          | Input: um formulário de cadastro com o nome da oficina, telefone, e-mail, endereço, CNPJ/CPF, serviços oferecidos e a tabela de preços.
+     
                                         | Feedback: a oficina aparece no sistema como “pendente a cadastramento” até que os dados sejam inseridos e confirmados.
+     
                                         | Plano: informar os dados sobre a oficina e depois enviar a confirmação ao dono.
+     
                                         | Recomendação: permitir que o dono da oficina faça o cadastro online sem precisar do suporte de outras pessoas.
+     
   ------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- 
+  
   1. Informar dados da oficina          | Plano: preencher os dados obrigatórios sobre a oficina (nome, endereço, telefone, CNPJ) e cadastrar os serviços ofereçidos e a tabela de preços.
               1+2                       |
- -------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------    
+     
+ -------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------   
+ 
   1.1 Informar os dados básicos (nome,  | Problema: os campos longos podem aumentar tempo de preenchimento das respostar. Recomendação: usar o preenchimento automático para acelerar o processo. 
+ 
  telefone, e-mail, endereço, CNPJ/CPF)  |
+ 
  -------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------                                                                     |
+  
   1.2 Informar serviços oferecidos e    | Problema: os valores podem variar e precisar de uma atualização rotineira. Recomendação: permitir as importações via planilha ou uma edição rápida de preços.
+  
   tabela de preços                      |
+ 
   ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------                                                          |
+  
   2. Enviar mensagem de confirmação     | Ação: o cadastro deve ser confirmado no prazo que esta estabelecido no site.
+  
   do cadastro                           | Recomendação 1: automatizar os envios da mensagem de confirmação usando (WhatsApp/E-mail).
+                                        
                                         | Recomendação 2: enviar os lembretes caso a confirmação não seja enviada dentro do prazo que tinha sido estabelecido.
 
 
@@ -438,6 +455,7 @@ METHOD 3.B: A revisão antes da confirmação
 <!-- TODOs:
 - Add exemplos
  -->
+
 
 
 
