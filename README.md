@@ -348,18 +348,15 @@ Classificação de cartões:
 ### Modelo de tarefas
 
 1 -- Modelo:
-## -- Cadastrar Oficina (César):  // Usar esse objetivo principal para fazer os outros 3 metodos(GOMS, CTT e diagramas/tabela).
+## -- Cadastrar Oficina (César): 
 
   Objetivos/Operações                   |               Problemas e recomendações
   
                                         |
                                         
   0. Cadastrar a oficina 1 > 2          | Input: um formulário de cadastro com o nome da oficina, telefone, e-mail, endereço, CNPJ/CPF, serviços oferecidos e a tabela de preços.
-     
                                         | Feedback: a oficina aparece no sistema como “pendente a cadastramento” até que os dados sejam inseridos e confirmados.
-     
                                         | Plano: informar os dados sobre a oficina e depois enviar a confirmação ao dono.
-     
                                         | Recomendação: permitir que o dono da oficina faça o cadastro online sem precisar do suporte de outras pessoas.
      
   ------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- 
@@ -384,8 +381,10 @@ Classificação de cartões:
   2. Enviar mensagem de confirmação     | Ação: o cadastro deve ser confirmado no prazo que esta estabelecido no site.
   
   do cadastro                           | Recomendação 1: automatizar os envios da mensagem de confirmação usando (WhatsApp/E-mail).
-                                        
                                         | Recomendação 2: enviar os lembretes caso a confirmação não seja enviada dentro do prazo que tinha sido estabelecido.
+                                        
+ <img width="828" height="513" alt="Captura de tela 2025-10-02 234417" src="https://github.com/user-attachments/assets/7d1484a8-b66e-46ef-b02b-0330a8117e52" />
+
 
 
 GOAL 0: Cadastrar a oficina no sistema
@@ -434,6 +433,82 @@ METHOD 3.B: A revisão antes da confirmação
     OP. 3.B.1: Clica em “Salvar o rascunho”
     OP. 3.B.2: Conferir os dados cadastrados
     OP. 3.B.3: Clicar em “Confirmar o cadastro da oficina”
+
+2 -- Modelo:
+## - Cadastras Cliente (Neide):
+
+   Objetivos/Operações                   |               Problemas e recomendações
+                                         
+   0. Cadastrar cliente                  |   Input: o formulário de cadastro do cliente junto com o nome, telefone, e-mail, CPF e endereço.
+                 1 > 2                   |   Feedback: o cliente aparece na lista da oficina como “Cadastrado” após confirmação do cadastro.
+                                         |   Plano: informar os dados do cliente e depois confirmar o cadastro do mesmo.
+                                         |   Recomendação: permitir um cadastros simplificado (nome + telefone) e poder completar dados depois.
+   
+   1. Informar os dados do cliente       |  Plano: preencher os dados pessoais e do veículo.
+                 1+2+3                   |
+
+   1.1 Informar dados pessoais           |  Plano:  preencher os dados obrigatorios relacionado ao cliente (nome, telefone, e-mail, CPF). / Problema: campos mal preenchidos (ex.: e-mail inválido).
+                                         | 
+   1.2 Informar endereço                 |  Plano: preencher os dados de  residencia  (rua, número, bairro, cidade e CEP).
+                                         |  Problema: o endereço pode ser digitado errado.
+
+   1.3 Informar dados do veículo         |  Plano: preencher os dados do carro do cliente (placa, modelo e ano).
+                                         |  Problema: uma placa falsa pode ser cadastrada.
+
+   2. Confirmar os cadastros dos clientes|  Ação: salvar os dados do cliente e vincular na oficina.
+                                         |  Recomendação 1: mostrar uma mensagem de sucesso.
+                                         |  Recomendação 2: enviar um e-mail/SMS automático de boas-vindas ao cliente.
+
+<img width="1440" height="604" alt="Captura de tela 2025-10-02 235646" src="https://github.com/user-attachments/assets/bc4a50f3-5c2e-494e-8051-8813ddeb284b" />
+
+
+GOAL 1: Informar os dados do cliente
+
+METHOD 1.A: Inserir manualmente os dados dos clintes
+(SEL. RULE: quando o dono da oficina está cadastrando um novo cliente)
+    OP. 1.A.1: Clicar em “Adicionar Cliente”
+    OP. 1.A.2: Digitar o nome completo do cliente
+    OP. 1.A.3: Digitar o CPF ou CNPJ
+    OP. 1.A.4: Digitar o telefone do cliente
+    OP. 1.A.5: Digitar o e-mail do cliente
+    OP. 1.A.6: Digitar o endereço completo do cliente (rua, número, bairro, cidade, CEP)
+
+METHOD 1.B: Importar os dados de um arquivo ja existente
+(SEL. RULE: quando tem uma lista de clientes já organizada em uma planilha ou sistema anterior)
+    OP. 1.B.1: Clicar em “Importar clientes”
+    OP. 1.B.2: Selecionar os arquivo no formato ex(CSV/Excel(
+    OP. 1.B.3: Confirmar a importação dos dados dos clientes
+    OP. 1.B.4: Valida se todos os dados dos clientes foram carregados sem erros
+
+GOAL 2: Informar os dados do veículo do cliente
+
+METHOD 2.A: O cadastro manual
+(SEL. RULE: quando o cliente fornece as informações de um único veículo)
+    OP. 2.A.1: Digitar a placa do veículo
+    OP. 2.A.2: Digitar o modelo do veículo
+    OP. 2.A.3: Digitar o ano de fabricação do veículo
+    OP. 2.A.4: Digitar a quilometragem atual do veículo
+
+METHOD 2.B: Importar os dados de varios carros
+(SEL. RULE: quando o cliente possui mais de um veículo e já tem uma lista pronta)
+    OP. 2.B.1: Clicar em “Importar os veículos”
+    OP. 2.B.2: Selecionar o arquivo contendo as informações dos veículos
+    OP. 2.B.3: Confirmar a importação
+    OP. 2.B.4: Verificar se todos os veículos foram adicionados ao cliente certo
+
+GOAL 3: Confirmar o cadastro do cliente
+
+METHOD 3.A: A confirmação direta
+    OP. 3.A.1: Clicar em “Salvar e confirmar cadastro”
+    OP. 3.A.2: O sistema salva e vincula o cadastro do cliente e o veículo na oficina
+    OP. 3.A.3: Verifica a mensagem de sucesso
+
+METHOD 3.B: Revisar antes de confirmação
+    OP. 3.B.1: Clicar em “Salvar rascunho”
+    OP. 3.B.2: Conferir os dados do cliente e do veículo
+    OP. 3.B.3: Clicar em “Confirmar cadastro”
+    OP. 3.B.4: O sistema envia uma notificação de confirmação ao cliente
+      
     
 ### Design
 
@@ -455,6 +530,7 @@ METHOD 3.B: A revisão antes da confirmação
 <!-- TODOs:
 - Add exemplos
  -->
+
 
 
 
