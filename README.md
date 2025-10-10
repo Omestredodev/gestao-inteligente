@@ -511,10 +511,27 @@ METHOD 3.B: Revisar antes de confirmação
       
     
 ### Design
+1) 
 
-- Pense nas características de Affordances do seu serviço ou poduto. 
-    - Que tipo de acessibilidades devem ser consideradas dentro do seu projeto?
-- Discuta o papel das expectativas do usuário no projeto deste serviço ou poduto. Qual a importância e pontos a serem considerados se você quiser vender esse serviço ou poduto?
+Item                               |                                                  Descrição                                                              |                                                     Justificativa
+Software e Hardware                |                O sistema será feito para navegadores web (Chrome, Edge, Firefox) usando HTML, CSS e o JavaScript.       |            Como o foco é o front-end, essas ferramentas vão ajudar na padronização visual e permitir uma                                          |                As interfaces serão feitas no Figma e o fluxo de interação com o usuário será feito no Molic.            |             validação rápida pelo usuário.
+                                   |                                                                                                                         |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                                                                             
+Capacidades da plataforma          |                uma interface boa e compatível com as telas de notebook, desktop e celulares                             |             Os usuários podem acessar o sistema em diferentes dispositivos; assim  melhorando a                                                   |                                                                                                                         |              experiência.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                                                                             
+Restrições da plataforma           |                 O sistema dependerá de conexão com a internet e de navegadores modernos com um suporte a HTML5.         |            O uso offline não vai ser suportado e em alguns navegadores antigos podem apresentar falhas.
+                                   |                                                                                                                         |
+
+2)
+
+Contexto de uso –                                                                                               Nome da referência –                                                                      Descrição da referéncia  -
+O serviço vai ser utilizado em dois cenários principais:                                                  ISO 9241-210 – Ergonomia da interação humano-sistema                     Define os princípios de design centrado no usuário e garantindo que o sistema seja       o ambiente pessoal/doméstico (os usuários como a Neide, que acessam o sistema em casa,                                                                                               eficaz, eficiente e possibilite uma boa experiência ao usuário.
+                                                                                                                                                                                   É fundamental que o dono da oficina quanto o cliente consiga usar o sistema de forma fácil.
+no trabalho ou pelo celular para acompanhar as revisões e despesas de seu veículo)
+e os ambiente profissionais/oficina (usuários como o Cesar, mecânicos e donos de oficina,
+que registram as informações dos clientes, serviços e peças usadas enquanto trabalham).
 
 ### Prototipação em baixo nível (papel)
 #### Avaliação heurística
@@ -530,6 +547,7 @@ METHOD 3.B: Revisar antes de confirmação
 <!-- TODOs:
 - Add exemplos
  -->
+
 
 
 
