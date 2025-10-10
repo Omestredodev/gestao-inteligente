@@ -526,9 +526,9 @@ Restrições da plataforma           |                 O sistema dependerá de c
 
 2)
 
-Contexto de uso –                                                                                               Nome da referência –                                                                      Descrição da referéncia  -
-O serviço vai ser utilizado em dois cenários principais:                                                  ISO 9241-210 – Ergonomia da interação humano-sistema                     Define os princípios de design centrado no usuário e garantindo que o sistema seja       o ambiente pessoal/doméstico (os usuários como a Neide, que acessam o sistema em casa,                                                                                               eficaz, eficiente e possibilite uma boa experiência ao usuário.
-                                                                                                                                                                                   É fundamental que o dono da oficina quanto o cliente consiga usar o sistema de forma fácil.
+Contexto de uso –                                                                                              Nome da referência –                                                                      Descrição da referéncia  -
+O serviço vai ser utilizado em dois cenários principais:                                          ISO 9241-210 – Ergonomia da interação humano-sistema                     Define os princípios de design centrado no usuário e garantindo que o sistema seja       o ambiente pessoal/doméstico (os usuários como a Neide, que acessam o sistema em casa,                                                                                       eficaz, eficiente e possibilite uma boa experiência ao usuário.
+                                                                                                                                                                           É fundamental que o dono da oficina quanto o cliente consiga usar o sistema de forma fácil.
 no trabalho ou pelo celular para acompanhar as revisões e despesas de seu veículo)
 e os ambiente profissionais/oficina (usuários como o Cesar, mecânicos e donos de oficina,
 que registram as informações dos clientes, serviços e peças usadas enquanto trabalham).
@@ -547,6 +547,7 @@ que registram as informações dos clientes, serviços e peças usadas enquanto 
 <!-- TODOs:
 - Add exemplos
  -->
+
 
 
 
