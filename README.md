@@ -385,6 +385,9 @@ Classificação de cartões:
                                         
  <img width="828" height="513" alt="Captura de tela 2025-10-02 234417" src="https://github.com/user-attachments/assets/7d1484a8-b66e-46ef-b02b-0330a8117e52" />
 
+ <img width="1461" height="796" alt="image" src="https://github.com/user-attachments/assets/a6cc53d1-b27c-4b0b-b13f-29a6b8931580" />
+
+
 
 
 GOAL 0: Cadastrar a oficina no sistema
@@ -547,6 +550,7 @@ que registram as informações dos clientes, serviços e peças usadas enquanto 
 <!-- TODOs:
 - Add exemplos
  -->
+
 
 
 
