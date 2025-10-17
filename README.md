@@ -464,6 +464,9 @@ METHOD 3.B: A revisão antes da confirmação
 
 <img width="1440" height="604" alt="Captura de tela 2025-10-02 235646" src="https://github.com/user-attachments/assets/bc4a50f3-5c2e-494e-8051-8813ddeb284b" />
 
+<img width="1695" height="652" alt="image" src="https://github.com/user-attachments/assets/7b51de0f-2103-452a-bcc7-de01525d69ff" />
+
+
 
 GOAL 1: Informar os dados do cliente
 
@@ -550,6 +553,7 @@ que registram as informações dos clientes, serviços e peças usadas enquanto 
 <!-- TODOs:
 - Add exemplos
  -->
+
 
 
 
