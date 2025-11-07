@@ -541,6 +541,8 @@ que registram as informações dos clientes, serviços e peças usadas enquanto 
 
 ### Prototipação em baixo nível (papel)
 <img width = "1440" height ="1200" src = "prototipacao_de_baixo_nivel/tela_cadastro_login.jpeg">
+<img width = "1440" height ="1200" src = "prototipacao_de_baixo_nivel/tela_principal_mecanico.jpeg">
+<img width = "1440" height ="1200" src = "prototipacao_de_baixo_nivel/tela_principal_proprietario.jpeg">
 
 #### Avaliação heurística
 
@@ -553,6 +555,7 @@ que registram as informações dos clientes, serviços e peças usadas enquanto 
 <!-- TODOs:
 - Add exemplos
  -->
+
 
 
 
