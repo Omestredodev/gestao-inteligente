@@ -540,7 +540,7 @@ e os ambiente profissionais/oficina (usuários como o Cesar, mecânicos e donos 
 que registram as informações dos clientes, serviços e peças usadas enquanto trabalham).
 
 ### Prototipação em baixo nível (papel)
-<img tela_cadastro_login.jpeg>
+<img width = "1440" height ="1200" src = "prototipacao_de_baixo_nivel/tela_cadastro_login.jpeg">
 
 #### Avaliação heurística
 
@@ -553,6 +553,7 @@ que registram as informações dos clientes, serviços e peças usadas enquanto 
 <!-- TODOs:
 - Add exemplos
  -->
+
 
 
 
