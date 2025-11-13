@@ -385,7 +385,7 @@ Classificação de cartões:
                                         
  <img width="828" height="513" alt="Captura de tela 2025-10-02 234417" src="https://github.com/user-attachments/assets/7d1484a8-b66e-46ef-b02b-0330a8117e52" />
 
- <img width="1461" height="796" alt="image" src="https://github.com/user-attachments/assets/a6cc53d1-b27c-4b0b-b13f-29a6b8931580" />
+ <img width="828" height="513" src="CCTT2.png" />
 
 
 
@@ -464,7 +464,7 @@ METHOD 3.B: A revisão antes da confirmação
 
 <img width="1440" height="604" alt="Captura de tela 2025-10-02 235646" src="https://github.com/user-attachments/assets/bc4a50f3-5c2e-494e-8051-8813ddeb284b" />
 
-<img width="1695" height="652" alt="image" src="https://github.com/user-attachments/assets/7b51de0f-2103-452a-bcc7-de01525d69ff" />
+<img width="828" height="513" src="CCTT.png" />
 
 
 
@@ -536,8 +536,15 @@ Contexto de uso –                                                             
 O serviço vai ser utilizado em dois cenários principais:                                          ISO 9241-210 – Ergonomia da interação humano-sistema                     Define os princípios de design centrado no usuário e garantindo que o sistema seja       o ambiente pessoal/doméstico (os usuários como a Neide, que acessam o sistema em casa,                                                                                       eficaz, eficiente e possibilite uma boa experiência ao usuário.
                                                                                                                                                                            É fundamental que o dono da oficina quanto o cliente consiga usar o sistema de forma fácil.
 no trabalho ou pelo celular para acompanhar as revisões e despesas de seu veículo)
-e os ambiente profissionais/oficina (usuários como o Cesar, mecânicos e donos de oficina,
-que registram as informações dos clientes, serviços e peças usadas enquanto trabalham).
+e os ambiente profissionais/oficina (usuários como o Cesar, mecânicos e donos de oficina,     ABNT NBR ISO 9241-210:2021 – Ergonomia da interação humano-sistema           Adaptação brasileira da norma ISO 9241. Define as diretrizes ergonômicas e de usabilidade          que registram as informações dos clientes, serviços e peças usadas enquanto trabalham).                                                                                    aplicadas ao design das interfaces, garantindo um conforto e eficiência no uso do sistema.
+                                                                                                   heurísticas de usabilidade de nielsen                                  Conjunto de dez princípios de usabilidade, incluindo o feedback, consistência e a prevenção de                                                                                                                                                                                 erros, útil para os sistemas que exigem um cadastros e verificação constantes.
+
+link da referencia: https://www.target.com.br/produtos/normas-tecnicas/42158/nbriso9241-11-ergonomia-da-interacao-humano-sistema-parte-11-usabilidade-definicoes-e-conceitos
+https://www.nngroup.com/articles/ten-usability-heuristics/
+
+
+
+
 
 <img width="1059" height="798" alt="image" src="https://github.com/user-attachments/assets/0653a7fc-e220-4579-9caa-21ecd771203f" />
 
@@ -558,6 +565,7 @@ que registram as informações dos clientes, serviços e peças usadas enquanto 
 <!-- TODOs:
 - Add exemplos
  -->
+
 
 
 
