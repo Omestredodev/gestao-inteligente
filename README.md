@@ -539,6 +539,9 @@ no trabalho ou pelo celular para acompanhar as revisões e despesas de seu veíc
 e os ambiente profissionais/oficina (usuários como o Cesar, mecânicos e donos de oficina,
 que registram as informações dos clientes, serviços e peças usadas enquanto trabalham).
 
+<img width="1059" height="798" alt="image" src="https://github.com/user-attachments/assets/0653a7fc-e220-4579-9caa-21ecd771203f" />
+
+
 ### Prototipação em baixo nível (papel)
 <img width = "1440" height ="1200" src = "prototipacao_de_baixo_nivel/tela_cadastro_login.jpeg">
 <img width = "1440" height ="1200" src = "prototipacao_de_baixo_nivel/tela_principal_mecanico.jpeg">
@@ -555,6 +558,7 @@ que registram as informações dos clientes, serviços e peças usadas enquanto 
 <!-- TODOs:
 - Add exemplos
  -->
+
 
 
 
